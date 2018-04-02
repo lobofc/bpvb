@@ -1,0 +1,5 @@
+WAIT=8 # Espera 8 segundos para cada intento
+ATTEMPTS=6 # Intenta 6 veces y si no funciona, deploy fracasó y se utilizará el contenedor antiguo.
+/check_deploy.txt deploy_successful
+
+
